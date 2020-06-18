@@ -4,7 +4,7 @@
 	"name": "Google Donut",
 	"description": "A Google Donut",
 	"newInstancePrefix": "googleDonut",
-	"icon": " https://phomble.github.io/googleDonut/icon.png",
+	"icon": "https://phomble.github.io/googleDonut/icon.png",
 	"vendor": "I521939",
 	"eula": "",
 	"license": "",
@@ -12,7 +12,7 @@
 		{
 			"kind": "main",
 			"tag": "com-demo-googledonut",
-			"url": " https://phomble.github.io/googleDonut/googleDonut.js",
+			"url": "https://phomble.github.io/googleDonut/googleDonut.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
