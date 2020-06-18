@@ -386,11 +386,7 @@
 				
 				var data = google.visualization.arrayToDataTable([
 				['Label', 'Value'],
-				[props.text, {
-					
-					v:props.value/2,
-					f: fvalue 
-				}],
+				[props.text, {v:props.value/2, f: fvalue }],
 				[props.text, {v:grey/2, f: props.label + " Remaining: " + grey.toString()}],
 				[null, hidden],
 				]);
@@ -416,11 +412,13 @@
 			      pieHole: 0.7,
 			      pieStartAngle: 270,
 			      pieSliceText: 'none',
-			      slices: {
+				 /* 
+				  slices: {
 			        2: {
 			          color: 'transparent'
 			        }
-			      },
+				  },
+				  */
 			      theme: 'maximized',
 			      width: 400
 			    };
