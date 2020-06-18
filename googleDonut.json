@@ -1,0 +1,68 @@
+{
+	"id": "com.demo.googleDonut",
+	"version": "1.0.0",
+	"name": "Google Donut",
+	"description": "A Google Donut",
+	"newInstancePrefix": "googleDonut",
+	"icon": " https://phomble.github.io/googleDonut/icon.png",
+	"vendor": "I521939",
+	"eula": "",
+	"license": "",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "com-demo-googledonut",
+			"url": " https://phomble.github.io/googleDonut/googleDonut.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"label": {
+			"type": "string",
+			"description": "label",
+			"default": "Label"
+		},
+		"value": {
+			"type": "number",
+			"description": "value",
+			"default": 40
+		}
+	},
+	"methods": {
+		"setValue": {
+			"description": "Sets the Donut value.",
+			"parameters": [
+				{
+					"name": "newValue",
+					"type": "number",
+					"description": "The new Donut value."
+				}
+
+			],
+			"body": "this.value = newValue;"
+		},
+		
+		"setLabel": {
+			"description": "Sets the label value.",
+			"parameters": [
+				{
+					"name": "newLabel",
+					"type": "string",
+					"description": "The new label value."
+				}
+			],
+			"body": "this.label = newLabel;"
+		},
+		"getLabel": {
+			"returnType": "string",
+			"description": "Returns the Donut value",
+			"body": "return this.label;"
+		}
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the Colored Box."
+		}
+	}
+}
