@@ -402,7 +402,7 @@
 						format: 'short',
 							},
 					
-				  height: 400,
+				  height: 200,
 				  
 			      chartArea: {
 					top: 24,
@@ -420,7 +420,7 @@
 				  },
 				  */
 			      theme: 'maximized',
-			      width: 400
+			      width: 200
 			    };
 
 				var chart = new google.visualization.PieChart(ctx);
