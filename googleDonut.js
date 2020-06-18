@@ -402,7 +402,7 @@
 						format: 'short',
 							},
 					
-				  height: 200,
+				  height: 400,
 				  
 			      chartArea: {
 					top: 24,
@@ -412,15 +412,15 @@
 			      pieHole: 0.7,
 			      pieStartAngle: 270,
 			      pieSliceText: 'none',
-				 /* 
+				 
 				  slices: {
 			        2: {
 			          color: 'transparent'
 			        }
 				  },
-				  */
+				  
 			      theme: 'maximized',
-			      width: 200
+			      width: 400
 			    };
 
 				var chart = new google.visualization.PieChart(ctx);
